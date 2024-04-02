@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Report summary</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<form method="POST" action="{{ url_for('data') }}">
+    <label for="from_date">From date:</label>
+    <input type="date" id="from_date" name="from_date">
+
+    <label for="to_date">To date:</label>
+    <input type="date" id="to_date" name="to_date">
+
+    <input type="submit" value="Submit">
+</form>
+<button>
+<a href="{{ url_for('download_file') }}">Download</a>
+</button>
+<table class="table">
+
+    <tr class="table__header">
+        <th class="table__cell">Sl.No</th>
+        <th class="table__cell"> Test case Name</th>
+        <th class="table__cell">pass count</th>
+        <th class="table__cell">fail count</th>
+         <th class="table__cell">No of Executions</th>
+    </tr>
+  {% if not data %}
+  <script>alert("No data found! Please enter a Valid Dates")</script>
+{% endif %}
+    {% for row in data %}
+    <tr class="table__row">
+        {% for cell in row %}
+        <td class="table__cell"> {{cell}}</td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+      "api_key": "5I424SoO",
+      "clientId": "K136197",
+      "pwd": 8530,
+      "token": "ZUYSVDBEJAI54HAPLTBE44OTWI",
+      "sample": "datawwa",
+      "CLIENT_LOCAL_IP": "192.168.1.17",
+      "CLIENT_PUBLIC_IP": "115.98.138.3",
+      "MAC_ADDRESS": "CA-94-02-A7-91-25",
+      "AUTHORIZATION_TOKEN": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VybmFtZSI6IksxMzYxOTciLCJyb2xlcyI6MCwidXNlcnR5cGUiOiJVU0VSIiwiaWF0IjoxNjkwMTAzNjc0LCJleHAiOjE2OTAxOTAwNzR9.QQbk5sZebAxwdTxSElTUdQvGDvSSras-URgZEXe89QLqBonIcB2JjH5ZnqMdmydUGSAir01eEs8hCUi_AQpWFQ",
+      "Refresh_Token": "eyJhbGciOiJIUzUxMiJ9.eyJ0b2tlbiI6IlJFRlJFU0gtVE9LRU4iLCJpYXQiOjE2OTAxMDM2NzR9.rgv2ejfw244AjLImychqLcTEyfcmv50YUu2bGTsRrbZxUMDXwwtyT4VDcN7bvrD36DrqYZ13Rf71jQo-DARCIQ",
+      "Feed_Token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VybmFtZSI6IksxMzYxOTciLCJpYXQiOjE2OTAxMDM2NzQsImV4cCI6MTY5MDE5MDA3NH0.Mu7ctRYIZ_6bMap7UJLGjOFc512R2zmJKUw3bqxeBpFGgutUraDkDo0nwEaHJ77IAiuN1CZMdl03ID1W5IDmag"
+}
